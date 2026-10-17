@@ -1,7 +1,21 @@
-.pyc*
-*.pyc
 
-try.py
-try2.py
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+
+# Log files
+*.log
+
+# Uploaded and generated files
 /UPLOADS
 /Downloaded
+
+# IDE files
+.vscode/
